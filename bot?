@@ -35,4 +35,4 @@ async def roll(ctx, dice: str):
     result = ', '.join(str(random.randint(1, limit)) for r in range(rolls))
     await ctx.send(result)
 
-client.run("MTEyMTc5MDA5NDE2OTM1MDIyNQ.GzznVT.dzl28_tZTpKKv-ooXkhld0GIwoz72UrJSGnw8k")
+client.run("my token")
