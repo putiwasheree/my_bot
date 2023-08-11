@@ -42,4 +42,4 @@ async def on_message(message):
         await message.channel.send(gen_pass(10))
     else:
         await message.channel.send("Tidak dapat memproses perintah ini, maaf")
-client.run("MTEyMTc5MDA5NDE2OTM1MDIyNQ.G-XtGY.OxwJYQpC5cC5M60D-lFDCdsRvXOoe_Wot1aPL4")
+client.run("SECRET TOKEN HERE")
